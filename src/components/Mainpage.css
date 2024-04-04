@@ -1,0 +1,61 @@
+.container {
+    background-color: rgba(87, 58, 172, 1);
+    color: white;
+    display: flex;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 84.1vh;
+  }
+  
+  .section {
+    background-color: rgba(38, 16, 102, 1);
+    padding: 0;
+    border-radius: 8px;
+    width: 90vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1vh 8vh;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin-right: 1vw;
+    cursor: pointer;
+    align-self: flex-end;
+    flex-direction: column;
+  }
+  
+  .textarea {
+    flex: 1;
+    color:white;
+    font-family: cursive;
+    width: 45vw;
+    background-color:rgba(38, 16, 102, 1) ;
+    margin-bottom: 1vw;
+    margin-left:1vw ;
+    margin-right: 1vw;
+  }
+  
+  .image {
+    margin: 2vh;
+    width: 6vw;
+  }
+  .header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top:1vh ;
+    margin-left: 1vw;
+    
+  }
